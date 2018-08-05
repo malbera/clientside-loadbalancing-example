@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: balancer
+
+server:
+  port: 8888
+
+service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090,localhost:9092,localhost:9999
+    ServerListRefreshInterval: 15000

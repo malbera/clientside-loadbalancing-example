@@ -1,0 +1,4 @@
+rootProject.name = 'clientside-loadbalancing-example'
+
+include 'service'
+include 'balancer'
